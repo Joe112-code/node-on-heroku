@@ -1,4 +1,5 @@
-const PROFILE_API = 'http://localhost:4000/api/profile';
+//const PROFILE_API = 'http://localhost:4000/api/profile';
+const PROFILE_API = 'https://my-node-on-heroku.herokuapp.com/api/profile';
 
 export const fetchAllProfile = (dispatch) =>
     fetch(PROFILE_API)
