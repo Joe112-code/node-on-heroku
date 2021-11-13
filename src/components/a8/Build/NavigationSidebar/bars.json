@@ -1,0 +1,61 @@
+[
+
+    {
+        "link": "../HomeScreen",
+        "icon":"fas fa-home mt-1",
+        "text": "Home",
+        "router": "/a8/twitter/home"
+    },
+
+    {
+        "link": "../ExploreScreen",
+        "icon":"fas fa-hashtag mt-1",
+        "text": "Explore",
+        "router": "/a8/twitter/explore"
+
+
+    },
+
+    {
+        "link": "notifications.html",
+        "icon":"fas fa-bell mt-1",
+        "text": "Notifications",
+        "router": "/a8/twitter/notifications"
+    },
+
+    {
+        "link": "messages.html",
+        "icon":"fas fa-envelope mt-1",
+        "text": "Messages",
+        "router": "/a8/twitter/messages"
+
+    },
+
+    {
+        "link": "bookmarks.html",
+        "icon":"fas fa-bookmark mt-1",
+        "text": "Bookmarks",
+        "router": "/a8/twitter/bookmarks"
+    },
+
+    {
+        "link": "lists.html",
+        "icon":"fas fa-list mt-1",
+        "text": "Lists",
+        "router": "/a8/twitter/lists"
+    },
+
+    {
+        "link": "profile.html",
+        "icon":"fas fa-user mt-1",
+        "text": "Profile",
+        "router": "/a8/twitter/profile"
+
+    }
+
+
+
+
+
+
+]

@@ -1,0 +1,80 @@
+.wd-more-icon {
+    position: relative;
+    margin-left: -0.2em;
+    font-size: 0.5em;
+}
+
+
+
+.fas.fa-ellipsis-h{
+    color:black;
+}
+
+.wd-round-avatar {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: relative;
+
+}
+
+.wd-black-topic-font {
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+.wd-black-content-font {
+    font-size: 15px;
+
+}
+
+.has-search .form-control{
+    padding-left: 2.6em;
+}
+
+.has-search .wd-search-icon {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+
+}
+
+.wd-thumbnail {
+    position: relative;
+    display: inline-block;
+}
+
+.wd-caption {
+    position: absolute;
+    top: 83%;
+    left: 1%;
+    color: white;
+    font-weight: bold;
+    font-size:48px;
+}
+
+.wd-gray-title-font {
+    color: rgb(110, 118, 125);
+    font-size: 15px;
+    font-weight: normal;
+}
+
+img.wd-logo {
+    height: 85px;
+    width: 85px;
+    position: relative;
+    border-radius: 20%;
+
+}
+
+.wd-inactive {
+    text-decoration: none;
+
+
+}

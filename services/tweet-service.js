@@ -1,4 +1,4 @@
-let tweets = require('../data/tweets.json');
+let tweets = require('../src/components/a8/reducers/data/tweets.json');
 
 module.exports = (app) => {
 
