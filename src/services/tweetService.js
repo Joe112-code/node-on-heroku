@@ -1,5 +1,5 @@
 //const TWEET_API = 'http://localhost:4000/api/tweets';
-const TWEET_API = 'https://my-node-on-heroku.herokuapp.com/api/tweets'
+const TWEET_API = 'process.env.PORT'
 
 export const fetchAllTweets = (dispatch) =>
     fetch(TWEET_API)
