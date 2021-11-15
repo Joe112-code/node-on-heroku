@@ -1,3 +1,6 @@
+const mongoose = require('mongoose');
+mongoose.connect('mongodb://localhost:27017/webdev');
+
 const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
@@ -19,8 +22,12 @@ app.get('/hello', (req, res) => {
     res.send('Hello World!');
 });
 // pass express instance to service
-require('./services/movies-service')(app);
-require('./services/tweet-service')(app);
-require('./services/profile-service')(app);
+// require('./services/movies-service')(app);
+// require('./services/tweet-service')(app);
+// require('./services/profile-service')(app);
+
+require('./src/a9/out-services/movies-service')(app);
+require('./src/a9/out-services/tweet-service')(app);
+require('./src/a9/out-services/profile-service')(app);
 const port = process.env.PORT || 4000;
 app.listen(port);
