@@ -1,4 +1,4 @@
-let profile = require('../reducers/data/profile.json');
+let profile = require('../../components/a8/reducers/data/profile.json');
 
 module.exports = (app) => {
 
