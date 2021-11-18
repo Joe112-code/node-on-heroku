@@ -4,8 +4,10 @@ module.exports = (app) => {
 
     const likeTweet = (req, res) => {
         const id = req.params['id'];
+
         tweets = tweets.map(tweet => {
             if (tweet._id === id) {
+
                 if (tweet.liked === true) {
                     tweet.liked = false;
                     tweet.stats.likes--;
@@ -18,6 +20,7 @@ module.exports = (app) => {
                 return tweet;
             }
         });
+
         res.sendStatus(200);
     }
     app.put('/api/tweets/:id/like', likeTweet);
@@ -49,7 +52,8 @@ module.exports = (app) => {
             newTweet,
             ...tweets
         ];
-        res.json(tweets);
+        //res.json(tweets);
+        res.json(newTweet);
     }
     app.post('/api/tweets',postNewTweet);
 
